@@ -1,0 +1,28 @@
+{
+  "name": "namreactday1",
+  "version": "1.0.0",
+  "description": "this is day1 of namaste react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushjava07/namaste-react.git"
+  },
+  "keywords": [
+    "ayush",
+    "jha",
+    "namaste",
+    "react"
+  ],
+  "author": "ayushev01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushjava07/namaste-react/issues"
+  },
+  "homepage": "https://github.com/ayushjava07/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
