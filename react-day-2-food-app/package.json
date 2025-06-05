@@ -1,0 +1,23 @@
+{
+  "name": "react-day-2-babel",
+  "version": "1.0.0",
+  "description": "this is day 2 learning babel",
+  
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "ayush"
+  ],
+  "author": "ayush jha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.2",
+    "parsel": "^0.3.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

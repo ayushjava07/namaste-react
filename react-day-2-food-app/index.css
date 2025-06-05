@@ -1,0 +1,128 @@
+.App{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 2.5vh;
+    width: 100%;
+    min-height:100vh ;
+}
+
+
+.Nav{
+    
+    height: 15vh;
+    width: 95%;
+    overflow-y: hidden;
+    background: #ff8400;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Nav>.NavImg{
+    height: 120px;
+    width:120px;
+    margin-left: 40px;
+
+}
+.NavImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.NavElem{
+    margin-right: 30px;
+}
+.NavElem a{
+    text-decoration: none;
+    color: rgb(81, 4, 4);
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 200;
+    font-family: fantasy;
+}
+.NavElem a:hover{
+    color: #FDCF00;
+}
+.Body{
+    width: 95%;
+    min-height: 70vh;
+    padding: 2vh;
+    padding-top: 5vh;
+     margin-top: 20px;
+    /* background: #FDCF00; */
+    border-radius: 15px;
+
+}
+.Body .Search{
+    padding: 20px 10px ;
+    background: #ffffff;
+    display: flex;
+    
+}
+.Card-Cnt{
+    width: 100%;
+    height: 100%;
+    padding: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.Card{
+    width: 25vh;
+    height: 35vh;
+    background-color: hsl(45, 100%, 53%);
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* align-items: center; */
+    
+}
+.Card .Card-Img{
+    /* background: #000; */
+    width: 25vh;
+    height: 25vh;
+}
+.Card .Card-Img img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    border-radius: 10px;
+}
+.Card .Card-Items{
+    /* display: flex; */
+    background: #757171;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.Card-Items .L1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    line-height:0px;
+}
+.L1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.L1 p{
+    font-family:  sans-serif;
+    font-size: 15px;
+    color: rgb(222, 221, 221);
+    font-weight: 800;
+}
+.L1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: rgb(163, 163, 163);
+}
