@@ -1,8 +1,8 @@
 const Loader=()=>{
     return(
         <div>
-            <div>
-                        <button
+        <div>
+      {/* <button
         style={{
           padding: 10,
           borderRadius: "20px",
@@ -29,13 +29,10 @@ const Loader=()=>{
       >
         TOP-RESTAURANTS 🚀
       </button>
-      
+       */}
         </div>
         <div className="Loader-container">
-        
-        <div className="Search">
-        <div>search</div>
-        </div>
+
             <div className="Lcard">
             </div>
             <div className="Lcard">
