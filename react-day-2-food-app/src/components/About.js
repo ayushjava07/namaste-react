@@ -1,6 +1,8 @@
-
+import Aboutpersons from "./Aboutpersons"
 export const About = () => {
   return (
-    <div>About hiii</div>
+    <div>
+      <Aboutpersons name={"ayush"} email={"ayush@gmail.com"}/>      
+    </div>
   )
 }

@@ -4,7 +4,7 @@
   "description": "this is day 2 learning babel",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "npx parcel index.html"
   },
   "keywords": [
     "ayush"

@@ -5,7 +5,9 @@ const Restmenu = () => {
   const [resdata, setresdata] = useState(null);
   const {resid}=useParams();
   console.log(resid);
-
+ useEffect(() => {
+    fetchdata();
+  }, []);
   const fetchdata = async () => {
     const response = await fetch(
       "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9628669&lng=77.57750899999999&restaurantId="+`${resid}`
@@ -15,9 +17,7 @@ const Restmenu = () => {
     console.log(resjson);
   };
 
-  useEffect(() => {
-    fetchdata();
-  }, []);
+ 
 
   // Safe check
   const menuItems =
