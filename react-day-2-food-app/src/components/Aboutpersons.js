@@ -2,14 +2,18 @@ import react from "react";
 
 class Aboutpersons extends react.Component{
     constructor(props){
+        console.log("constructor")
             super(props);
             console.log(props);
             this.state={
                 count:0
             }
-
         }
-    render(){
+        componentDidMount(){
+            console.log("mount")
+        }
+        render(){
+        console.log("okk")
         const {name, email}=this.props;
         const {count}=this.state;
         return(

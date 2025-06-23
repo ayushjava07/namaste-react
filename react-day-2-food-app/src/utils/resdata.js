@@ -1,2 +1,2 @@
- const RES_API="https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9628669&lng=77.57750899999999&collection=80377&tags=&sortBy=&filters=&type=rcv2&offset=0&page_type=null";
- export default RES_API;
+ export const RES_API1="https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9628669&lng=77.57750899999999&collection=8039";
+ export const RES_API2="&tags=&sortBy=&filters=&type=rcv2&offset=0&page_type=null";

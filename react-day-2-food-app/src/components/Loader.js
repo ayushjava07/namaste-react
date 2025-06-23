@@ -1,6 +1,11 @@
+import {Toaster,toast} from "react-hot-toast";
+
 const Loader=()=>{
+  toast.success('Successfully connected ✅')
     return(
         <div>
+          <Toaster position="bottom-right"
+  reverseOrder={false}/>
         <div>
       {/* <button
         style={{
